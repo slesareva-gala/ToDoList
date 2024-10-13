@@ -17,3 +17,19 @@ body {
     align-items: center;
     padding: 20px;
 }
+
+.notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75vh;
+    height: 75vh;
+    background-image: url(../images/notFound.svg);
+    background-size: cover;
+    text-align: center;
+    font-size: 6vh;
+}
+
+.toHome {
+    font-size: 5vh;
+}
