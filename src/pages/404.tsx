@@ -5,7 +5,7 @@ export const NotFound = () => {
         <div className="container">
             <div className="notFound">
                 Not Found
-                <Link to="/" className="toHome">go Home</Link>
+                <Link to="/" className="toHome">go ToDo</Link>
             </div>
 
 
