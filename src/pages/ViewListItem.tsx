@@ -3,6 +3,7 @@ import { ToDo } from "../models/todo-item"
 import { useNavigate, useParams } from "react-router-dom"
 import { useSelector } from "react-redux"
 import { RootState } from "../store"
+import { PageWrapper, TextH1 } from "./Pages.styled"
 
 export const ViewListItem = () => {
     const todoList = useSelector((state: RootState) => state.todoList.todos)
@@ -21,8 +22,8 @@ export const ViewListItem = () => {
     }, [todoList, id, navigate])
 
     return (
-        <div className="container">
-            <h1>{todo?.text}</h1>
-        </div>
+        <PageWrapper>
+            <TextH1>{todo?.text}</TextH1>
+        </PageWrapper>
     )
 }
