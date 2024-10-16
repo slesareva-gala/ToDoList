@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/http//slesareva-gala.github.io/ToDoList/static/css/main.f029a054.css",
-    "main.js": "/http//slesareva-gala.github.io/ToDoList/static/js/main.498ee5cc.js",
-    "static/media/notFound.webp": "/http//slesareva-gala.github.io/ToDoList/static/media/notFound.b6a88042b295966f99b7.webp",
-    "index.html": "/http//slesareva-gala.github.io/ToDoList/index.html",
-    "main.f029a054.css.map": "/http//slesareva-gala.github.io/ToDoList/static/css/main.f029a054.css.map",
-    "main.498ee5cc.js.map": "/http//slesareva-gala.github.io/ToDoList/static/js/main.498ee5cc.js.map"
+    "main.css": "/ToDoList/static/css/main.f029a054.css",
+    "main.js": "/ToDoList/static/js/main.e9b5b54d.js",
+    "static/media/notFound.webp": "/ToDoList/static/media/notFound.b6a88042b295966f99b7.webp",
+    "index.html": "/ToDoList/index.html",
+    "main.f029a054.css.map": "/ToDoList/static/css/main.f029a054.css.map",
+    "main.e9b5b54d.js.map": "/ToDoList/static/js/main.e9b5b54d.js.map"
   },
   "entrypoints": [
     "static/css/main.f029a054.css",
-    "static/js/main.498ee5cc.js"
+    "static/js/main.e9b5b54d.js"
   ]
 }
