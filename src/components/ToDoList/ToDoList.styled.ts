@@ -19,7 +19,7 @@ export const TodoListFailed = styled(TodoList)`
         width: 100%;
         display: block;
         text-align: center;
-        font-size: 12px;
+        font-size: .9rem;
         color: #aaa;
     }
 `
@@ -36,7 +36,7 @@ export const TodoListCompleted = styled(TodoList)`
         content: '';
         width: 150px;
         height: 1px;
-        background: #d8e5e0;
+        background: #aaa;
 
         position: absolute;
         top: 25px;
@@ -47,7 +47,7 @@ export const TodoListCompleted = styled(TodoList)`
         width: 100%;
         display: block;
         text-align: center;
-        font-size: 12px;
+        font-size: .9rem;
         color: #aaa;
     }
 `

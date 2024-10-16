@@ -4,7 +4,7 @@ export const FormWrapper = styled.div`
     width: 100%;
     height: 80px;
     position: relative;
-    padding: 15px;
+    padding: 1rem;
     z-index: 5;    
     background-color: ${(props) => props.theme.colors.backgroundPrimary};
     transition: background-color .2s;

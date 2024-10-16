@@ -7,7 +7,9 @@ export const PageWrapper = styled.div`
     align-items: center;
     padding: 20px; 
 `
-export const TextH1 = styled.h1``
+export const TextH1 = styled.h2`
+   color: ${(props) => props.theme.colors.colorTodo};
+`
 
 export const Page404 = styled(PageWrapper) <{ $image: string }>`
     padding: 0; 

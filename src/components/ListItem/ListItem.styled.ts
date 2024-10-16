@@ -2,6 +2,6 @@ import styled from 'styled-components'
 
 export const ListItemLink = styled.a<{ $done: boolean }>`
     text-decoration: none;
-    padding: 10px;
-    color: ${(props) => props.$done ? "green" : "red"};
+    font-size: 1rem;
+    color: ${(props) => props.$done ? props.theme.colors.colorDone : props.theme.colors.colorNotDone};
 `

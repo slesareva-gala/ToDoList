@@ -10,7 +10,7 @@ export const Header = () => {
                 <HeaderNavLink to="/">ToDo</HeaderNavLink>
                 <HeaderNavLink to="/list">List</HeaderNavLink>
                 <HeaderTogle>
-                    <HeaderTogleButton onClick={() => dispatch(toggleThemeAction())}>toggle</HeaderTogleButton>
+                    <HeaderTogleButton onClick={() => dispatch(toggleThemeAction())}></HeaderTogleButton>
                 </HeaderTogle>
             </HeaderNavLinks>
         </HeaderWrapper>

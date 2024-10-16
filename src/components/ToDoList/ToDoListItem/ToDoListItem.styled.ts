@@ -5,13 +5,13 @@ export const ToDoItem = styled.li`
     min-height: 50px;
     font-size: 14px;
     font-weight: 500;
-    color: #444;
+    color: ${(props) => props.theme.colors.colorTodo};
     line-height: 22px;
 
     display: flex;
     justify-content: space-between;
 
-    background: #fff;
+    background: ${(props) => props.theme.colors.backgroundTodo};
     border-radius: 5px;
     position: relative;
     box-shadow: 0 1px 2px rgba(44, 62, 80, 0.10);
@@ -46,15 +46,20 @@ export const ToDoItemControl = styled.button<{ $icon: string }>`
     border: 0;
     box-shadow: none;
     outline: none;
-    cursor: pointer;
+    cursor: pointer; 
+     
     background-image: url(${(props) => props.$icon});
+
+    &:first-of-type {
+        opacity: ${(props) => props.theme.name === 'light' ? '1' : '.6'};;
+    }
 
     &:last-of-type:before {
         content: '';
         width: 1px;
         height: 30px;
-        background: #edf0f1;
-
+        background: #aaa;
+                
         position: absolute;
         top: 10px;
         left: 0;

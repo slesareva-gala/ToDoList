@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
         transition: background-color .2s;
         padding: 50px 0 0 0;
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 1.429;
         color: black;
     }
