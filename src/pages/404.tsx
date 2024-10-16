@@ -7,7 +7,7 @@ export const NotFound = () => {
         <PageWrapper>
             <Page404 $image={imagePage404}>
                 Page Not Found
-                <Page404Link to="/">go ToDo</Page404Link>
+                <Page404Link to="/ToDoList/">go ToDo</Page404Link>
             </Page404>
         </PageWrapper>
     )
