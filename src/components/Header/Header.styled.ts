@@ -12,6 +12,7 @@ export const HeaderWrapper = styled.header`
     align-items: center;
 `
 export const HeaderNavLinks = styled.div`
+    position: relative;
     max-width: 97%;
     width: 100%;
     margin: 0 auto;
@@ -30,3 +31,11 @@ export const HeaderNavLink = styled(NavLink)`
         text-decoration: underline;
     }
 `
+export const HeaderTogle = styled.div`
+    position: absolute;
+    right: 0;
+    top: 50%;    
+    transform: translateY(-50%);
+`
+
+export const HeaderTogleButton = styled.button``
