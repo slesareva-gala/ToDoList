@@ -20,5 +20,4 @@ export const router = createBrowserRouter([
         path: '*',
         element: <NotFound />
     }
-])
-// ], { basename: '/app' })  // название поддомена (для git page - /api)
+], { basename: '/ToDoList/' })  // название поддомена (для git page - /api)
