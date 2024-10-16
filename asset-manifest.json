@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/http//slesareva-gala.github.io/ToDoList/static/css/main.f029a054.css",
-    "main.js": "/http//slesareva-gala.github.io/ToDoList/static/js/main.637568f3.js",
+    "main.js": "/http//slesareva-gala.github.io/ToDoList/static/js/main.498ee5cc.js",
     "static/media/notFound.webp": "/http//slesareva-gala.github.io/ToDoList/static/media/notFound.b6a88042b295966f99b7.webp",
     "index.html": "/http//slesareva-gala.github.io/ToDoList/index.html",
     "main.f029a054.css.map": "/http//slesareva-gala.github.io/ToDoList/static/css/main.f029a054.css.map",
-    "main.637568f3.js.map": "/http//slesareva-gala.github.io/ToDoList/static/js/main.637568f3.js.map"
+    "main.498ee5cc.js.map": "/http//slesareva-gala.github.io/ToDoList/static/js/main.498ee5cc.js.map"
   },
   "entrypoints": [
     "static/css/main.f029a054.css",
-    "static/js/main.637568f3.js"
+    "static/js/main.498ee5cc.js"
   ]
 }
