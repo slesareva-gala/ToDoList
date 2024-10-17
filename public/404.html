@@ -5,12 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Not Found</title>
+    <style>
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .not-found {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            padding: 0;
+            justify-content: space-between;
+            width: 75vh;
+            height: 75vh;
+            background-image: url("https://raw.githubusercontent.com/slesareva-gala/ToDoList/refs/heads/main/src/assets/images/notFound.webp");
+            background-size: cover;
+            font-size: 6vh;
+        }
+
+        .not-found-link {
+            display: inline-block;
+            font-size: 5vh;
+        }
+    </style>
 </head>
 
 <body>
-    <script>
-        window.location.href = '/ToDoList'
-    </script>
+    <div class="wrapper">
+        <div class="not-found">
+            Page Not Found
+            <a href="/ToDoList" class="not-found-link">go ToDo</a>
+        </div>
+    </div>
 </body>
 
 </html>
