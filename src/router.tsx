@@ -12,7 +12,7 @@ export const router = createBrowserRouter([
         errorElement: <NotFound />,
         children: [
             { path: '/', element: <ToDoListPage /> },
-            { path: '/list', element: <ViewList /> },
+            { path: '/list/', element: <ViewList /> },
             { path: '/list/:id', element: <ViewListItem /> }
         ]
     },
@@ -20,4 +20,4 @@ export const router = createBrowserRouter([
         path: '*',
         element: <NotFound />
     }
-], { basename: '/ToDoList/' })  // название поддомена (для git page - /api)
+], { basename: '/ToDoList' })  // название поддомена (для git page - /api)

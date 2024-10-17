@@ -5,9 +5,8 @@ export const ListItem = ({ todo }: { todo: ToDo }) => {
     return (
         <ListItemLink
             $done={todo.isDone}
-            // target="_blank"
             rel="noreferrer"
-            href={`/list/${todo.id} `}
+            to={`/list/${todo.id}`}
         >{todo.text}</ListItemLink>
     )
 }
